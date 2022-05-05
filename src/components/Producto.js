@@ -43,7 +43,7 @@ const handleSubmit = e =>{
                                 placeholder="nombre"
                                 autoComplete="off"
                                 value={nombre}
-                                onchange={handleInputChange}
+                                onChange={handleInputChange}
                             />
                         </div>
                     </div>

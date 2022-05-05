@@ -4,7 +4,7 @@ const initialState = {
     productos: []
 }
 
-export const productosreducer = (state = initialState, action) => {
+export const productosReducer = (state = initialState, action) => {
     switch (action.type) {
         case types.agregar:
             return {
